@@ -9,6 +9,7 @@ var following: boolean = true;
 
 var shiftY: float;
 
+
 function Start () {
     moveSpeed = 1;
     position = transform.position;
@@ -22,19 +23,18 @@ function Update(){
 
     // transform.LookAt(follow.transform);
 
-    // transform.position = Vector3.Lerp(transform.position, nextPosition, time * moveSpeed);
-
-    if(alt <= 14000){
+    transform.position = Vector3.Lerp(transform.position, nextPosition, time * moveSpeed);
+    this.GetComponent(Skybox).enabled = false;
+    if(alt <= 15500){
       nextPosition = Vector3(follow.transform.position.x, follow.transform.position.y - alt*0.001, follow.transform.position.z - 21);
       shiftY = follow.transform.position.y - transform.position.y;
-    }  if (alt >= 14000 && alt < 20000){
+    }  if (alt >= 15500){
       shiftY = follow.transform.position.y - transform.position.y;
-      nextPosition = Vector3(follow.transform.position.x, follow.transform.position.y - shiftY + alt*0.001, follow.transform.position.z - 21);
+      // nextPosition = Vector3(follow.transform.position.x, follow.transform.position.y - shiftY + alt*0.001, follow.transform.position.z - 21);
+      nextPosition = Vector3(follow.transform.position.x, follow.transform.position.y + 20, follow.transform.position.z - 11);
+      this.GetComponent(Skybox).enabled = true;
     }
-    if (alt >= 20000){
-      shiftY = follow.transform.position.y - transform.position.y;
-      nextPosition = Vector3(follow.transform.position.x, follow.transform.position.y + 10, follow.transform.position.z - 21);
-    }
+
 
     transform.position = nextPosition;
     transform.LookAt(follow.transform);
@@ -45,7 +45,7 @@ function Update(){
 
 function toggleStandby(){
     following = true;
-    nextPosition = Vector3(-15, 5, 0);
+    nextPosition = Vector3(0, 8, -14);
 }
 
 function toggleEditMode(){

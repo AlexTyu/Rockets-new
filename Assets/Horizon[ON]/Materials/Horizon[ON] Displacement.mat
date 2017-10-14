@@ -198,11 +198,11 @@ Material:
     - _AmbientIBL: 0
     - _AmbientIBLMulti: 0.4
     - _AmbientvsIBL: 1
-    - _BaseDetailIntensity: 1
+    - _BaseDetailIntensity: 0.21
     - _BaseEmission: 0
     - _BaseGloss: 0
-    - _BlendDetailIntensity1: 1
-    - _BlendDetailIntensity2: 0.64
+    - _BlendDetailIntensity1: 0.53
+    - _BlendDetailIntensity2: 0
     - _BlendDetailIntensity3: 1
     - _BlendEmission1: 0
     - _BlendEmission2: 1
@@ -267,7 +267,7 @@ Material:
     - _OverlayFogHeightTransition: 300
     - _OverlayFogStartDistance: 0
     - _OverlayFogStartHeight: 0
-    - _Parallax: 250
+    - _Parallax: 240
     - _ReduceByUVBorder: 1
     - _ReduceByUVBorderLength: 0
     - _ReduceByVertexAlpha: 0
@@ -294,7 +294,7 @@ Material:
     - _WaterGloss: 0.875
     - _WaterSpecularity: 1
     - _WaterWaveSpeed: 1.5
-    - _WaterWaves: 0
+    - _WaterWaves: 1
     - _X: 1
     - _Z: 1
     - _node_1235: 0.03
@@ -346,7 +346,7 @@ Material:
     - _TintSaturationBlend3: {r: 0.19852942, g: 0.19852942, b: 0.19852942, a: 0.678}
     - _WaterColorAAmount: {r: 0.20145477, g: 0.35546207, b: 0.50735855, a: 0}
     - _WaterColorABlend: {r: 0.08176077, g: 0.15442796, b: 0.09729675, a: 1}
-    - _WaterColorAColorBlend: {r: 0, g: 0, b: 0, a: 0.759}
-    - _WaterSpecGloss: {r: 0, g: 0, b: 0, a: 0.9411765}
+    - _WaterColorAColorBlend: {r: 0.025735319, g: 0.027129844, b: 0.029411793, a: 0.759}
+    - _WaterSpecGloss: {r: 0.7352941, g: 0.7352941, b: 0.7352941, a: 0.9411765}
     - _WaterSpecularityAGloss: {r: 0.6911805, g: 0.6911805, b: 0.6911805, a: 0.67058825}
     - _tint: {r: 0.5808823, g: 0.5355193, b: 0.48691607, a: 1}

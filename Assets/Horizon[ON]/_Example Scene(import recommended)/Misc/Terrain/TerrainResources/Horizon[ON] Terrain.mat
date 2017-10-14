@@ -102,11 +102,11 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Floats:
     - _AmbientIBL: 0
-    - _BaseDetailIntensity: 1
+    - _BaseDetailIntensity: 0.21
     - _BaseEmission: 0
     - _BaseGloss: 0
-    - _BlendDetailIntensity1: 1
-    - _BlendDetailIntensity2: 0.64
+    - _BlendDetailIntensity1: 0.53
+    - _BlendDetailIntensity2: 0
     - _BlendDetailIntensity3: 1
     - _BlendEmission1: 0
     - _BlendEmission2: 1
@@ -154,7 +154,7 @@ Material:
     - _Water: 1
     - _WaterBlend: 1
     - _WaterWaveSpeed: 1.5
-    - _WaterWaves: 0
+    - _WaterWaves: 1
     - dummy_ambient: 0
     - dummy_begin: 1
     - dummy_cliff: 1
@@ -190,5 +190,5 @@ Material:
     - _TintSaturationBlend1: {r: 0.27205884, g: 0.27205884, b: 0.27205884, a: 0.547}
     - _TintSaturationBlend2: {r: 0.459, g: 0.459, b: 0.459, a: 0.558}
     - _TintSaturationBlend3: {r: 0.19852942, g: 0.19852942, b: 0.19852942, a: 0.678}
-    - _WaterColorAColorBlend: {r: 0, g: 0, b: 0, a: 0.759}
-    - _WaterSpecGloss: {r: 0, g: 0, b: 0, a: 0.9411765}
+    - _WaterColorAColorBlend: {r: 0.025735319, g: 0.027129844, b: 0.029411793, a: 0.759}
+    - _WaterSpecGloss: {r: 0.7352941, g: 0.7352941, b: 0.7352941, a: 0.9411765}
