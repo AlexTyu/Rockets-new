@@ -1,0 +1,299 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1212290571909894}
+  m_IsPrefabParent: 1
+--- !u!1 &1212290571909894
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4226694659654500}
+  m_Layer: 8
+  m_Name: Exhaust
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1440283979181856
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4990976787368012}
+  - component: {fileID: 114473508070186166}
+  m_Layer: 0
+  m_Name: PuffySmokeStuff
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1811649593414720
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4620878671581702}
+  - component: {fileID: 114251031725932446}
+  - component: {fileID: 33687558360347552}
+  - component: {fileID: 23492156786457902}
+  - component: {fileID: 114598622279977818}
+  m_Layer: 0
+  m_Name: emitter
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4226694659654500
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1212290571909894}
+  m_LocalRotation: {x: -1.1742828e-10, y: -6.6518063e-10, z: 0.0000000024314677, w: 1}
+  m_LocalPosition: {x: -0.05, y: -0.37, z: -0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4620878671581702}
+  - {fileID: 4990976787368012}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4620878671581702
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1811649593414720}
+  m_LocalRotation: {x: -0.0000000016362727, y: -0.7071068, z: -0.0000000018023418,
+    w: 0.7071068}
+  m_LocalPosition: {x: 0.106999755, y: -0.22499979, z: 0.21900019}
+  m_LocalScale: {x: 0.10000012, y: 0.1, z: 0.10000012}
+  m_Children: []
+  m_Father: {fileID: 4226694659654500}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4990976787368012
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1440283979181856}
+  m_LocalRotation: {x: -0.0000000016362727, y: -0.7071068, z: -0.0000000018023418,
+    w: 0.7071068}
+  m_LocalPosition: {x: 0.106999755, y: -0.22499979, z: 0.069000006}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4226694659654500}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!23 &23492156786457902
+MeshRenderer:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1811649593414720}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 3919d34502b4bab488f161fdf0e86752, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!33 &33687558360347552
+MeshFilter:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1811649593414720}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &114251031725932446
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1811649593414720}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a57fd7b87f899b48a331fbc85ca1a8a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  puffyRenderer: {fileID: 0}
+  autoEmit: 1
+  autoAssign: 1
+  autoRendererName: 
+  freezed: 0
+  lifeTime: 5
+  lifeTimeVariation: 1
+  positionVariation: {x: 0.02, y: 0.02, z: 0.02}
+  startDirection: {x: 0, y: 1, z: 0}
+  startDirectionVariation: {x: 0.01, y: 0.01, z: 0.01}
+  startSize: 0.8
+  endSize: 3
+  startSizeVariation: 0
+  endSizeVariation: 2
+  startSpeed: 1
+  startSpeedVariation: 0.2
+  startColor: {r: 1, g: 1, b: 1, a: 1}
+  endColor: {r: 0, g: 1, b: 0, a: 0.7921569}
+  startColorVariation: {r: 0, g: 0, b: 0, a: 1}
+  endColorVariation: {r: 0, g: 0, b: 0, a: 1}
+  colorGradient: {fileID: 114598622279977818}
+  luminosityEndTime: 1
+  maxParticlesDistance: 0
+  warmUp: 0
+  colorMode: 2
+  useLuminosity: 1
+  luminosityCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - serializedVersion: 2
+      time: 0.29999995
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  autoResize: 1
+  spawnRate: 200
+  useThread: 0
+  debugIntermediate: 0
+  trailStepDistance: 0.1
+  autoTrailStep: 1
+  autoTrailStepFactor: 0.055
+  autoTrailStepRatio: 0.5
+  allowedParticleCount: 1024
+  warmUpCount: 1024
+  subParticlesCount: 2
+  subParticlesCounter: 0
+  subParticlesRatio: 0.5
+  shapeSpawnerList: []
+  multiSpawnerList: []
+  cloudEmitter: 0
+  ready: 0
+--- !u!114 &114473508070186166
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1440283979181856}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8eca9525965d1bc4bb0dccaf813577ad, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  radixSort: 1
+  subMeshCount: 4
+  warmUp: 0
+  warmUpCount: 1
+  perf_foldout: 1
+  aspect_foldout: 1
+  visibility_foldout: 1
+  coresSetup: 16384
+  meshSetup: 4096
+  debug: 1
+  render: 1
+  debugMode: 2
+  PassMode: 0
+  updateThreshold: 0.01
+  _light: {fileID: 0}
+  useAmbientColor: 1
+  cameraBackgroundAsAmbientColor: 1
+  ambientIntensity: 0.75
+  particlesMaterial: {fileID: 2100000, guid: 438409147d7986b44bf16df03cef280d, type: 2}
+  TextureColCount: 8
+  TextureRowCount: 8
+  MaxRenderDistance: 1000
+  LODstartDistance: 0
+  AutoLOD: 0
+  ScreensizeClipping: 1
+  ScreensizeClippingFade: 0.2
+  Emitters: []
+  useThread: 1
+--- !u!114 &114598622279977818
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1811649593414720}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d981618990c345640a64e297752d28fa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  startOffset: 0
+  duration: 1
+  gradient:
+    serializedVersion: 2
+    key0: {r: 0.75, g: 1, b: 0.9843475, a: 1}
+    key1: {r: 1, g: 0.9098039, b: 0, a: 1}
+    key2: {r: 1, g: 0.7241379, b: 0, a: 0}
+    key3: {r: 0.9411765, g: 0.9411765, b: 0.9411765, a: 0}
+    key4: {r: 0, g: 0, b: 0, a: 0}
+    key5: {r: 0, g: 0, b: 0, a: 0}
+    key6: {r: 0, g: 0, b: 0, a: 0}
+    key7: {r: 0, g: 0, b: 0, a: 0}
+    ctime0: 2699
+    ctime1: 9830
+    ctime2: 14264
+    ctime3: 23516
+    ctime4: 0
+    ctime5: 0
+    ctime6: 0
+    ctime7: 0
+    atime0: 0
+    atime1: 65535
+    atime2: 0
+    atime3: 0
+    atime4: 0
+    atime5: 0
+    atime6: 0
+    atime7: 0
+    m_Mode: 0
+    m_NumColorKeys: 4
+    m_NumAlphaKeys: 2
+  lookupPrecision: 0

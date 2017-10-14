@@ -1,0 +1,200 @@
+Base path: /Applications/Unity/Unity.app/Contents
+Cmd: initializeCompiler
+Cmd: preprocess
+  insize=3006 outsize=3816 ok=1
+Cmd: preprocess
+  insize=5329 outsize=1095 ok=1
+Cmd: preprocess
+  insize=916 outsize=740 ok=1
+Cmd: preprocess
+  insize=7090 outsize=1449 ok=1
+Cmd: preprocess
+  insize=3183 outsize=321 ok=1
+Cmd: preprocess
+  insize=9050 outsize=375 ok=1
+Cmd: preprocess
+  insize=15004 outsize=11541 ok=1
+Cmd: preprocess
+  insize=420 outsize=1312 ok=1
+Cmd: preprocess
+  insize=3064 outsize=412 ok=1
+Cmd: preprocess
+  insize=3107 outsize=3320 ok=1
+Cmd: preprocess
+  insize=14189 outsize=1970 ok=1
+Cmd: preprocess
+  insize=8388 outsize=377 ok=1
+Cmd: preprocess
+  insize=2441 outsize=1304 ok=1
+Cmd: preprocess
+  insize=6863 outsize=1546 ok=1
+Cmd: preprocess
+  insize=3736 outsize=2688 ok=1
+Cmd: preprocess
+  insize=4200 outsize=1320 ok=1
+Cmd: preprocess
+  insize=899 outsize=1046 ok=1
+Cmd: preprocess
+  insize=2627 outsize=295 ok=1
+Cmd: preprocess
+  insize=2691 outsize=392 ok=1
+Cmd: preprocess
+  insize=3279 outsize=901 ok=1
+Cmd: preprocess
+  insize=5294 outsize=3065 ok=1
+Cmd: preprocess
+  insize=14404 outsize=10876 ok=1
+Cmd: preprocess
+  insize=2882 outsize=850 ok=1
+Cmd: compileCompute
+  api=14 insize=1431 outsize=5269 ok=1
+Cmd: compileCompute
+  api=15 insize=1431 outsize=9633 ok=1
+Cmd: compileCompute
+  api=15 insize=1431 outsize=9633 ok=1
+Cmd: preprocess
+  insize=14635 outsize=10887 ok=1
+Cmd: preprocess
+  insize=3736 outsize=374 ok=1
+Cmd: preprocess
+  insize=15532 outsize=12327 ok=1
+Cmd: preprocess
+  insize=5962 outsize=1841 ok=1
+Cmd: compileCompute
+  api=14 insize=3267 outsize=11597 ok=1
+Cmd: compileCompute
+  api=15 insize=3267 outsize=22197 ok=1
+Cmd: compileCompute
+  api=15 insize=3267 outsize=22197 ok=1
+Cmd: preprocess
+  insize=27079 outsize=15875 ok=1
+Cmd: preprocess
+  insize=10652 outsize=482 ok=1
+Cmd: preprocess
+  insize=4544 outsize=2211 ok=1
+Cmd: preprocess
+  insize=2264 outsize=298 ok=1
+Cmd: preprocess
+  insize=2273 outsize=631 ok=1
+Cmd: preprocess
+  insize=32239 outsize=1540 ok=1
+Cmd: preprocess
+  insize=6414 outsize=263 ok=1
+Cmd: preprocess
+  insize=3174 outsize=890 ok=1
+Cmd: preprocess
+  insize=2388 outsize=574 ok=1
+Cmd: preprocess
+  insize=2724 outsize=1368 ok=1
+Cmd: preprocess
+  insize=3979 outsize=2861 ok=1
+Cmd: preprocess
+  insize=7323 outsize=838 ok=1
+Cmd: preprocess
+  insize=1901 outsize=991 ok=1
+Cmd: preprocess
+  insize=896 outsize=274 ok=1
+Cmd: preprocess
+  insize=1283 outsize=1139 ok=1
+Cmd: preprocess
+  insize=2140 outsize=478 ok=1
+Cmd: preprocess
+  insize=3667 outsize=1505 ok=1
+Cmd: preprocess
+  insize=983 outsize=299 ok=1
+Cmd: preprocess
+  insize=4636 outsize=1614 ok=1
+Cmd: preprocess
+  insize=6814 outsize=496 ok=1
+Cmd: preprocess
+  insize=3321 outsize=2890 ok=1
+Cmd: preprocess
+  insize=2877 outsize=1372 ok=1
+Cmd: preprocess
+  insize=1933 outsize=300 ok=1
+Cmd: preprocess
+  insize=11666 outsize=680 ok=1
+Cmd: preprocess
+  insize=2501 outsize=489 ok=1
+Cmd: preprocess
+  insize=14448 outsize=2079 ok=1
+Cmd: preprocess
+  insize=4286 outsize=558 ok=1
+Cmd: preprocess
+  error: 1 plat 20 at (58): Unrecognized #pragma directive: noforwardadd
+  insize=10335 outsize=1912 ok=1
+Cmd: preprocess
+  insize=9098 outsize=2420 ok=1
+Cmd: compileCompute
+  api=14 insize=1522 outsize=5245 ok=1
+Cmd: compileCompute
+  api=15 insize=1522 outsize=7293 ok=1
+Cmd: compileCompute
+  api=15 insize=1522 outsize=7293 ok=1
+Cmd: preprocess
+  insize=2074 outsize=237 ok=1
+Cmd: preprocess
+  insize=2154 outsize=678 ok=1
+Cmd: preprocess
+  insize=1102 outsize=1163 ok=1
+Cmd: preprocess
+  insize=1004 outsize=410 ok=1
+Cmd: preprocess
+  insize=13678 outsize=10747 ok=1
+Cmd: preprocess
+  insize=5627 outsize=2670 ok=1
+Cmd: preprocess
+  insize=2540 outsize=904 ok=1
+Cmd: preprocess
+  insize=1715 outsize=368 ok=1
+Cmd: preprocess
+  error: 1 plat 20 at (137): Program uses tessellation shaders, automatically setting target to ~4.6/5.0
+  insize=15285 outsize=11679 ok=1
+Cmd: preprocess
+  insize=11036 outsize=483 ok=1
+Cmd: preprocess
+  insize=6002 outsize=1429 ok=1
+Cmd: preprocess
+  insize=7965 outsize=362 ok=1
+Cmd: preprocess
+  insize=14386 outsize=2029 ok=1
+Cmd: preprocess
+  insize=9627 outsize=392 ok=1
+Cmd: preprocess
+  insize=285 outsize=285 ok=1
+Cmd: preprocess
+  insize=3878 outsize=1910 ok=1
+Cmd: preprocess
+  insize=3007 outsize=3409 ok=1
+Cmd: preprocess
+  insize=6015 outsize=1276 ok=1
+Cmd: preprocess
+  insize=3437 outsize=244 ok=1
+Cmd: preprocess
+  insize=37014 outsize=22220 ok=1
+Cmd: preprocess
+  insize=4602 outsize=3524 ok=1
+Cmd: preprocess
+  insize=2520 outsize=653 ok=1
+Cmd: preprocess
+  insize=825 outsize=234 ok=1
+Cmd: compileCompute
+  api=14 insize=2341 outsize=3533 ok=1
+Cmd: compileCompute
+  api=15 insize=2341 outsize=5505 ok=1
+Cmd: compileCompute
+  api=15 insize=2341 outsize=5505 ok=1
+Cmd: preprocess
+  insize=8656 outsize=4554 ok=1
+Cmd: preprocess
+  insize=3433 outsize=1527 ok=1
+Cmd: preprocess
+  insize=3368 outsize=2841 ok=1
+Cmd: preprocess
+  insize=1978 outsize=955 ok=1
+Cmd: preprocess
+  insize=5259 outsize=487 ok=1
+Cmd: preprocess
+  insize=13695 outsize=10764 ok=1
+Cmd: preprocess
+  insize=6359 outsize=263 ok=1

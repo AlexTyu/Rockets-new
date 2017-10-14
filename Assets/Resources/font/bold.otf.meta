@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: 108407128d7ed47ff8e3f20eb99b111f
+timeCreated: 1507873046
+licenseType: Pro
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Akkurat
+  fontNames:
+  - Akkurat
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

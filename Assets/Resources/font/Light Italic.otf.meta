@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: cd8e32219544a45d9b6a13f4e7bfc954
+timeCreated: 1507873046
+licenseType: Pro
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Akkurat Light
+  fontNames:
+  - Akkurat Light
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 13181e102e00243a283b57a03d9e0082, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
